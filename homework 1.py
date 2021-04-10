@@ -76,14 +76,7 @@ else:
 # vegetable.  If it is, print that the user can have the vegetable and end the bit of code.  If
 # they input something unrecognized by our list, tell the user they made an invalid choice and make
 # them pick again.  Repeat until they pick a valid vegetable.
-available_vegetables = ['carrot', 'kale', 'radish', 'pepper']
-choice = input('Please pick a vegetable I have available: ')
-for string in choice:
-    if string in available_vegetables:
-        print("the user can have the vegetable")
-        break
-    else: 
-        print ("invalid choice. please pick again.")
+
 
 # Question 4: Write a list comprehension that starts with any list of strings, and returns a new
 # list that contains each string in all lower-case letters, but only if the string begins with the
